@@ -1,0 +1,67 @@
+nav {
+    
+    background: RGB(50, 61, 93);
+    height: 2000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+   
+    
+   
+    
+}
+input{
+    outline: none;
+}
+input , select{
+    width: 60%;
+     border-radius: 4px; 
+    
+    
+} 
+ul{
+    margin-top: 100px;
+    background: white;
+    border-radius: 10px;
+    height: 650px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+   
+    
+}
+
+.Invalid {
+   border-color: red;
+}
+.Valid {
+    border-color: green;
+
+}
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content:  center;
+    margin-left: 50px;
+    flex-direction: column;
+    font-size: 200%;
+   margin-top: 20px;
+   color: black;
+}
+nav div {
+    margin-top: 30px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column;
+    width: 53.5%;
+    margin-left: 50px;
+}
+div :nth-child(2){
+    margin-top: 20px;
+}
+button{
+    border-radius: 5px; 
+    
+}
